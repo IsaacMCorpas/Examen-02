@@ -4,5 +4,5 @@
 	<!-- Specify a JDBC datasource -->
 	<Resource name="jdbc/sqldehumo" auth="Container" type="javax.sql.DataSource"
 		username="dehumousrtest2" password="dhmsrTst0!" driverClassName="com.mysql.jdbc.Driver"
-		url="jdbc:mysql://122.27.100.125" maxActive="10" maxIdle="4" />
+		url="jdbc:mysql://localhost:3306/dehumo" maxActive="10" maxIdle="4" />
 </Context>
